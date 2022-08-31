@@ -9,10 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class=" navbar navbar-expand-md justify-content-center  w-100 col-xl-12 col-sm-12">
+    <div class="container-fluid" id="home">
+    <div class="nav justify-content-center">
+    <nav class=" navbar navbar-expand-md justify-content-center  w-100 col-xl-12 col-sm-12 fixed-top">
+        <div class="container-fluid logo-c me-auto w-10 ms-0">
+            <a class="navbar-brand ms-1" href="#">
+              <img  class="logo" src="images/images2.jpg" alt="Logo" style="width:60px;" class="rounded-circle">
+            </a>
+          </div>
+          <button class="navbar-toggler  me-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">      
         <ul class="navbar-nav list-group list-group-horizontal">
             <li class="nav-item text-white m-3" >
-                <a class="nav-link text-white" href="#aboutus">HOME</a>
+                <a class="nav-link text-white" href="#home">HOME</a>
             </li>
             <li class="nav-item m-3" >
                 <a class="nav-link text-white" href="#aboutus">ABOUT</a>
@@ -21,30 +32,32 @@
                 <a class="nav-link text-white" href="#skill">SKILLS</a>
             </li>
             <li class="nav-item m-3" >
-                <a class="nav-link text-white" href="#aboutus">CONTACT</a>
+                <a class="nav-link text-white" href="#contacts">CONTACT</a>
             </li>
 
         </ul>
+    </div>
     </nav>
-
+    </div>
     <div class="container-fluid justify-content-center  col-sm-12 col-xl-12">
         <div class=" justify-content-center col-sm-12 col-xl-12 ">
+            <div class="anim1">
             <h4 class="h4 text-center m-5 ">Hi, my name is</h4>
             <h1 class="name text-capitalize text-center font-size:14px m-3">dahunsi halima olajumoke</h1>
             <h4 class="h4 text-center m-5 text-capitalize">i am a front-end developer</h4>
-            <div class="list-group list-group-horizontal list-group-flush justify-content-center mt-1">
-                    <a href="#" class="list-group-item">
+            <div class="list-group list-group-horizontal list-group-flush justify-content-center mt-1 " id="contact">
+                    <a href="https://www.facebook.com/dahunsi.halimah" class="list-group-item">
                     <img class="rounded-circle w-30 h-10 " style="width: 30px; height:30px; " src="/images/facebook.png" alt="facebook">
                     </a>
-                    <a href="#" class="list-group-item">
+                    <a href="https://www.facebook.com/dahunsi.halimah                    " class="list-group-item">
                         <img class="rounded-circle " style="width: 30px; height:30px; " src="/images/instagram.jpg" alt="facebook">
                         </a>
-                        <a href="#" class="list-group-item">
+                        <a href="https://mobile.twitter.com/Ajumoke4" class="list-group-item">
                             <img class="rounded-circle w-10 h-10 " style="width: 30px; height:30px; " src="/images/twitter.jpg" alt="facebook">
                             </a>
                 </div>
+            </div>
                 <button type="button" class="btn btn-primary mx-auto d-block m-5" style="align-self: center;">hire me</button>
-                <img class=" mx-auto d-block col-sm-4" src="/images/image.jpg" style="width: 250px; height:250px; " alt="">
                 <div class="my-skills p-5">
                 <h2 class="h2 text-primary text-capitalize m-5 text-left" style="width: 180px;">what i do</h2>
                 <div class="row">
@@ -62,19 +75,17 @@
                     <div id="skill" class="skills col-sm-10 col-md-6 col-xl-4 mx-auto m-4 d-block">
                         <div class="icon-cont mx-auto m-4  p-4 rounded" style="width: 100px; height:100px;">
                             <div class="icon">
-                                <svg class="w-6 h-6 text-white mx-auto  " style="width: 50px; height:50px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>    
-                            </div>
+                                <svg class="w-6 h-6 mx-auto d-block" style="width: 50px; height: 50px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>                            </div>
                             </div> 
                             <div class="">
-                                <h2 class="h2 text-capitalize text-center">fashion design</h2>
-                            <p class="p text-capitalize mx-auto d-block text-center">i make befitting female wears both casual and native outfits.</p>
+                                <h2 class="h2 text-capitalize text-center">social media management<h2>
+                            <p class="p text-capitalize mx-auto d-block text-center">i manage social media handles for business owners firms and private firms. i create content calenders, page auditing, and graphic designs and every ideas to generate traffic for your page and drive customers for your business .</p>
                             </div>
                         </div>
                         <div id="skill" class="skills col-sm-10 col-md-6 col-xl-4 mx-auto m-4 d-block">
-                            <div class="icon-cont mx-auto p-4 rounded m-4" style="width: 100px; height:100px;">
+                            <div class="icon-cont mx-auto p-4 rounded m-4" style="width: 100px; height: 100px;" >
                                 <div class="icon">
-                                    <svg class="w-6 h-6 text-white mx-auto  " style="width: 50px; height:50px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>    
-                                </div>
+                                    <svg class="w-6 h-6 text-white mx-auto d-block" style="width: 50px; height:50px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>                                </div>
                                 </div> 
                                 <div class="m-3">
                                     <h2 class="h2 text-capitalize text-center">graphics designs</h2>
@@ -117,10 +128,10 @@
                 <h2 class="h2 text-capitalize text-left">recent projects</h2>
                 <div class="row p-5">
                 <div class="border m-4 justify-content-center col-sm-12 col-md-6 col-xl-3 mx-auto d-block" style="border: 1px solid rgb(194, 184, 184); border-radius:10px">
-                    <iframe src="portfolio.html" frameborder="0"></iframe>
+                    <iframe src="https://halima-1.github.io/oic-project1/" frameborder="0"></iframe>
                 </div>
                 <div class="border m-4 justify-content-center col-sm-12 col-md-6 col-xl-3 mx-auto d-block" style="border: 1px solid rgb(194, 184, 184); border-radius:10px">
-                    <iframe src="portfolio.html" frameborder="0"></iframe>
+                    <iframe src="https://halima-1.github.io/oic-project1/html/jewelries" frameborder="0"></iframe>
                 </div>
                 <div class="border m-4 justify-content-center col-sm-12 col-md-6 col-xl-3 mx-auto d-block" style="border: 1px solid rgb(194, 184, 184); border-radius:10px">
                     <iframe src="portfolio.html" frameborder="0"></iframe>
@@ -128,7 +139,7 @@
             </div>
             </div>
             <div class="respond ">
-                <div class="row border ">
+                <div class="row  ">
                          <div class="reply col-sm-10 col-md-6 col-xl-4 mx-auto m-4 d-block">
                         <div class="icon-cont mx-auto m-5 p-4 rounded" style="width: 100px; height:100px;">
                             <div class="icon">
@@ -161,7 +172,7 @@
     </div>
     <div class="container-fluid last p-4">
         <div class="row">
-            <div class="link col-sm-10 col-md-6 col-xl-3">
+            <div class="link col-sm-10 col-md-3 col-xl-3">
         <h2 class="h2 text-capitalize">quick link</h2>
         <ul>
             <li class="list-group-item ">
@@ -171,7 +182,7 @@
                 <a class="text-dark" href="#about">About</a>
             </li>
             <li class="list-group-item ">
-                <a class="text-dark" href="#about">skills</a>
+                <a class="text-dark" href="#skills">skills</a>
             </li>
             <li class="list-group-item ">
                 <a class="text-white" href="#about"></a>
@@ -179,25 +190,25 @@
 
         </ul>
         </div>
-        <div class="link col-sm-10 col-md-6 col-xl-3">
+        <div class="link col-sm-10 col-md-3 col-xl-3">
             <h2 class="h2 text-capitalize">follow me</h2>
             <ul>
                 <li class="list-group-item ">
-                    <a class="text-dark" href="#about">facebook</a>
+                    <a class="text-dark" href="">facebook</a>
                 </li>
                 <li class="list-group-item ">
-                    <a class="text-dark" href="#about">instagram</a>
+                    <a class="text-dark" href="https://www.linkedin.com/in/dahunsi-halima-olajumoke-">linkedin</a>
                 </li>
                 <li class="list-group-item ">
-                    <a class="text-dark" href="#about">twitter</a>
+                    <a class="text-dark" href="https://mobile.twitter.com/Ajumoke4">twitter</a>
                 </li>
                 <li class="list-group-item ">
-                    <a class="text-dark" href="#about">github</a>
+                    <a class="text-dark" href="https://www.linkedin.com/in/dahunsi-halima-olajumoke-">github</a>
                 </li>
     
             </ul>
             </div>
-            <div class="link col-sm-10 col-md-6 col-xl-3">
+            <div class="link col-sm-10 col-md-3 col-xl-3">
                 <h2 class="h2 text-capitalize">projects</h2>
                 <ul>
                     <li class="list-group-item ">
@@ -215,7 +226,7 @@
         
                 </ul>
                 </div>
-                <div class="link col-sm-10 col-md-6 col-xl-3">
+                <div class="link col-sm-10 col-md-3 col-xl-3">
                     <h2 class="h2 text-capitalize">quick link</h2>
                     <ul>
                         <li class="list-group-item ">
@@ -233,6 +244,28 @@
             
                     </ul>
                     </div>
+                    <div class="link col-sm-10 col-md-3 col-xl-3 ms-5" id="contacts">
+                        <h2 class="h2 text-capitalize">contact me</h2>
+                        <div class="footer-icon">
+                            <div class="office">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            </div>
+                            <p>head office: ringroad area, osogbo osun state, nigeria.</p>
+                        </div>
+                        <div class="footer-icon">
+                            <div class="hot">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            </div>
+                            <p>hot line: 08105154901</p>
+                        </div>
+                        <div class="footer-icon">
+                            <div class="email-icon">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"></path></svg>
+                            </div>
+                            <p>email address: royalpearl19@gmail.com </p>
+                        </div>
+            </div>
+            
                         
         </div>
     </div>
