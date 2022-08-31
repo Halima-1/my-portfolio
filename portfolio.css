@@ -1,0 +1,50 @@
+iframe{
+    height: 200px;
+    overflow: hidden;
+}
+.reply{
+    background-color: rgb(233, 214, 166);
+    width: 300px;
+    border-style: groove;
+    border-radius: 10px;
+    border: 1px solid rgb(175, 169, 169);
+}
+.icon-cont{
+    background-color: rgb(40, 165, 40);
+}
+.navbar{
+    background-color: rgb(40, 165, 40);
+
+}
+.last{
+    background-color: rgb(233, 214, 166);
+
+}
+li{
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+.name{
+    color: rgb(40, 165, 40);
+
+}
+.skills{
+    width: 300px;
+    border-style: groove;
+    border-radius: 10px;
+    border: 1px solid rgb(175, 169, 169);
+}
+.my-skills{
+    background-color: rgb(233, 214, 166);
+}
+h2{
+text-transform: capitalize;
+}
+svg{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
